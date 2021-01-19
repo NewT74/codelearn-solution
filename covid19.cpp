@@ -4,7 +4,7 @@ vector<int> covid19(vector<vector<int>> arr) {
     vector<int> result(4);
     history[0] = true;
     unordered_set<int> f1, f2, f3, f4;
-    set <int> f;
+    set<int> f;
     auto found = [&](vector<int> day) -> int {
         f.clear();
         for (int &person: day) {
